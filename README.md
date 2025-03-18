@@ -56,8 +56,8 @@ fortunetech-frontend/
 ## 📌 1. Clone the Repository
 
 ```sh
-git clone [https://github.com/camilotenorio1234/QRForge.git](https://github.com/camilotenorio1234/QRForge)
-cd QRForge
+git clone https://github.com/camilotenorio1234/FortuneTech-Frontend.git
+cd FortuneTech-Frontend
 ```
 
 # 📌 2. Open in a browser
@@ -126,8 +126,8 @@ fortunetech-frontend/
 ## 📌 1. Clonar el repositorio
 
 ```sh
-git clone https://github.com/camilotenorio1234/fortunetech-frontend.git
-cd fortunetech-frontend
+git clone https://github.com/camilotenorio1234/FortuneTech-Frontend.git
+cd FortuneTech-Frontend
 ```
 
 # 📌 2. Abrir en un navegador
