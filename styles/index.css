@@ -1,0 +1,323 @@
+html,
+body {
+  height: auto;
+  margin-bottom: 20px;
+}
+
+body {
+  
+  background-image: url("../img/54336.png");
+  background-size: 200%;
+
+}
+#carouselDescripcion .contenedor-texto-descripcion {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 80px;
+  background: #ffffffbc;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+
+}
+#titulo {
+  font-size: 60px;
+  font-family: 'BazarMedium', fantasy;
+  text-align: center; /* Alinea el texto a la izquierda */
+  text-transform: uppercase;
+  font-weight: bold;
+  background: linear-gradient(to right, white, white);
+  -webkit-background-clip: text;
+  background-clip: text; /* Compatibilidad con otros navegadores */
+  color: transparent; /* Hace que el texto tome el color del fondo */
+  text-shadow: 3px 3  px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px 50px; /* Espaciado desde el margen izquierdo */
+  display: block;
+  width: fit-content;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+#titulo2{
+  font-size: 60px;
+  font-family: 'BazarMedium', fantasy;
+  text-align: left; /* Alinea el texto a la izquierda */
+  text-transform: uppercase;
+  font-weight: bold;
+  background: linear-gradient(to right, white, white);
+  -webkit-background-clip: text;
+  background-clip: text; /* Compatibilidad con otros navegadores */
+  color: transparent; /* Hace que el texto tome el color del fondo */
+  text-shadow: 3px 3  px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px 50px; /* Espaciado desde el margen izquierdo */
+  display: block;
+  width: fit-content;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1,h4{
+	color: #fcfdff;
+	font-family: fantasy;
+}
+h5{
+  color:rgba(76, 9, 201, 0.8);
+  font-family: fantasy;
+}
+#texto{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+
+}
+
+#texto2{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.vista1{
+
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+.vista2{
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 15px;
+  background-image: linear-gradient(to bottom right, rgba(125, 60, 245, 0.849) , rgba(211, 113, 48, 0.87));
+  border-radius: 10px;
+
+
+}
+.vista3{
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 15px;
+  background-image: linear-gradient(to bottom right, rgba(125, 60, 245, 0.849) , rgba(211, 113, 48, 0.87));
+  border-radius: 10px;
+}
+
+.vista4{
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 15px;
+  background: #ffffffbc;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  overflow: hidden; /* Para evitar desbordamientos */
+  position: relative;
+}
+
+.vista4 p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.text-center {
+  font-family: 'Poppins', sans-serif; /* Cambia la tipografía (ejemplo con Poppins) */
+  font-size: 15px; /* Aumenta el tamaño de la letra */
+  font-weight: bold; /* Hace que el texto se vea más destacado */
+  color: #333; /* Un color oscuro para mejor contraste */
+  text-align: center; /* Centra el texto */
+  margin-top: 10px; /* Espaciado superior */
+}
+
+
+#col1{
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 15px;
+  background-image: linear-gradient(to bottom right, rgba(125, 60, 245, 0.849) , rgba(211, 113, 48, 0.87));
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+
+}
+#col2{
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 15px;
+  background-image: linear-gradient(to bottom right, rgba(125, 60, 245, 0.849) , rgba(211, 113, 48, 0.87));
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+#col3{
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+
+}
+#col4{
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 15px;
+  
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  overflow: hidden; /* Para evitar desbordamientos */
+}
+
+#col4 p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+
+#boton1{
+  margin-left: -60px;
+}
+
+#boton2{
+  margin-right: -80px;
+}
+#boton3{
+  margin-left: -60px;
+}
+
+#boton4{
+  margin-right: -60px;
+}
+
+#imagen{
+  border-radius: 10px;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+#imagen:hover{
+
+  -webkit-transform:scale(0.9);
+  transform:scale(0.9);
+
+}
+
+
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
+
+.btn-primary{
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: rgba(76, 9, 201, 0.8);
+  --bs-btn-border-color: #fcfdff;
+  --bs-btn-hover-color: rgb(255, 251, 255);
+  --bs-btn-hover-bg: rgba(48, 0, 136, 0.8);
+  --bs-btn-hover-border-color:#ffffff;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  }
+.btn-warning{
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: #00a6ff;
+  --bs-btn-border-color: #fcfdff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0b5ed7;
+  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+}
+.nav a.active {
+  font-weight: bold;
+  color: rgba(125, 60, 245, 0.849) !important; /* Cambia el color del texto */
+  border-bottom: 2px solid rgba(125, 60, 245, 0.849); /* Agrega un subrayado */
+}
+
+/* Estilos personalizados para los botones de Login y Registro */
+.btn-custom {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+
+.btn-custom:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+
+/* Estilos para la barra de búsqueda */
+.search-bar {
+  background-color: #333;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 8px 15px;
+  width: 200px;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-bar::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: rgba(76, 9, 201, 0.8);
+  box-shadow: 0 0 8px rgba(76, 9, 201, 0.8);
+}

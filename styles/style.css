@@ -1,0 +1,191 @@
+/* Estructura General */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image: url("../img/54336.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Fuentes personalizadas */
+@font-face {
+  font-family: 'BazarMedium';
+  src: url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/bazar-webfont.eot');
+  src: url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/bazar-webfont.eot?iefix') format('eot'),
+       url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/bazar-webfont.woff') format('woff'),
+       url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/bazar-webfont.ttf') format('truetype'),
+       url('http://www.midwinter-dg.com/blog_demos/css-text-shadows/fonts/bazar-webfont.svg#webfont4U38ahXF') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#titulo {
+  font-size: 60px;
+  font-family: 'BazarMedium', fantasy;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: linear-gradient(to right, white, white);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3);
+  margin: 20px auto 10px auto; /* Reducción del margen inferior */
+  display: block;
+  width: 100%;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+#subtitulo {
+  font-size: 30px;
+  font-family: 'BazarMedium', fantasy;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: linear-gradient(to right, white, white);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3);
+  margin: 0 auto 20px auto; /* Se eliminó margen superior innecesario */
+  display: block;
+  width: 100%;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Botón de Registro con Google */
+.btn-google {
+  background: white;
+  color: #333;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-google img {
+  margin-right: 10px;
+}
+
+.btn-google:hover {
+  background: #f1f1f1;
+  color: #000;
+}
+/* Formulario */
+.form-signin {
+  max-width: 400px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Campos de entrada */
+.form-signin .form-floating {
+  margin-bottom: 10px;
+}
+
+.form-signin .form-floating input {
+  border-radius: 10px;
+}
+
+/* Animación de Fade In */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Estilos para los botones */
+.btn-primary {
+  background: rgba(76, 9, 201, 0.8);
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: rgba(48, 0, 136, 0.8);
+}
+
+.btn-outline-light {
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-outline-light:hover {
+  background: white;
+  color: black;
+}
+
+.btn-secondary {
+  background: rgba(200, 200, 200, 0.6);
+  border: none;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+}
+
+/* Ajustes en textos */
+h1, h2 {
+  color: #fcfdff;
+  font-family: fantasy;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:active {
+  text-decoration: black;
+}
+
+/* Adaptación para pantallas más pequeñas */
+@media (max-width: 768px) {
+  #titulo {
+      font-size: 45px;
+  }
+
+  #subtitulo {
+      font-size: 22px;
+  }
+
+  .form-signin {
+      max-width: 320px;
+      padding: 20px;
+  }
+}

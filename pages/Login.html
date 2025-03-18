@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login page</title>
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+    <link href="../styles/style.css" rel="stylesheet">
+    <link rel="icon" href="../img/icono.png">
+  </head>
+
+
+  <body class="text-center " >
+  <div class="container  ">
+    <div clas="row">
+      <label id="titulo">
+        Fortune company S.A.
+      </label>
+      <label id="subtitulo">
+        Equipo de desarrollo de software de calidad
+      </label>
+    </div>
+    <div clas="row">
+      <main class="form-signin w-100 m-auto">
+        <form>
+          <img class="mb-4" src="../img/login.svg" alt="" width="72" height="57">
+  
+           <div class="form-floating">
+             <div class="form-floating">
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                <label for="email">Email</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="Password" placeholder="Password">
+                <label for="Password">Password</label>
+            </div>
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me"> Recuerdame
+              </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit" onclick="window.location.href='index.html';">Login</button>
+            
+            <button class="w-100 btn btn-lg btn-secondary mt-2" type="button" onclick="window.location.href='registro.html';">
+              ¿No tienes cuenta? Regístrate
+            </button>
+
+            <!-- Botón de Volver al Inicio -->
+            <button class="w-100 btn btn-lg btn-outline-light mt-2" type="button" onclick="window.location.href='index.html';">
+              Volver al inicio
+            </button>
+        
+        </form>
+      </main>
+    </div>
+        
+</div>
+<script src="../scripts/scripts.js"></script>
+  </body>
+</html>
